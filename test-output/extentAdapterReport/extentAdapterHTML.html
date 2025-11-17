@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 17, 2025 01:18:49 PM</span></a>
+<a href="#"><span class="badge badge-primary">Nov 17, 2025 02:09:09 PM</span></a>
 </li>
 </ul>
 </div>
@@ -88,18 +88,18 @@
           </div>
           <div class="test-detail">
             <span class="meta text-white badge badge-sm"></span>
-            <p class="name">LoginTest</p>
-            <p class="text-sm"><span>13:18:54 PM</span> / <span>20.687 secs</span></p>
+            <p class="name">LoginUsingDataProvider</p>
+            <p class="text-sm"><span>14:09:15 PM</span> / <span>20.151 secs</span></p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
 <div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
-<h5 class="test-status text-fail">LoginTest</h5>
-<span class='badge badge-success'>11.17.2025 13:18:54</span>
-<span class='badge badge-danger'>11.17.2025 13:19:14</span>
-<span class='badge badge-default'>20.687 secs</span>
+<h5 class="test-status text-fail">LoginUsingDataProvider</h5>
+<span class='badge badge-success'>11.17.2025 14:09:15</span>
+<span class='badge badge-danger'>11.17.2025 14:09:35</span>
+<span class='badge badge-default'>20.151 secs</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
 </div>
@@ -117,7 +117,7 @@
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="3">[Admin, admin123]</div>
+            <div class="node" id="3">[Admin, admin123, valid]</div>
             <div class="status-avatar float-right pass-bg">
                <i class="fa fa-check text-white"></i>
             </div>
@@ -130,7 +130,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:18:56 PM</td>
+        <td>2:09:17 PM</td>
         <td>
           Test passed
         </td>
@@ -143,7 +143,7 @@
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="4">[AdminABC, admin123567]</div>
+            <div class="node" id="4">[AdminXXX, admin123XXX, invalid]</div>
             <div class="status-avatar float-right fail-bg">
                <i class="fa fa-times text-white"></i>
             </div>
@@ -156,14 +156,13 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:19:03 PM</td>
+        <td>2:09:23 PM</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [true] but found [false]
+          <textarea readonly class="code-block">java.lang.AssertionError: Expecting login fail but navigate to dashboard expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at LoginTestwithParameters.LoginTest.bothCorrectTesting(LoginTest.java:37)
+	at DataDrivenTest.LoginUsingDataProvider.bothCorrectTesting(LoginUsingDataProvider.java:51)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -201,7 +200,7 @@
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="5">[AdminXXX, admin123]</div>
+            <div class="node" id="5">[Admin, admin123XXX, invalid]</div>
             <div class="status-avatar float-right fail-bg">
                <i class="fa fa-times text-white"></i>
             </div>
@@ -214,14 +213,13 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:19:09 PM</td>
+        <td>2:09:29 PM</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [true] but found [false]
+          <textarea readonly class="code-block">java.lang.AssertionError: Expecting login fail but navigate to dashboard expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at LoginTestwithParameters.LoginTest.bothCorrectTesting(LoginTest.java:37)
+	at DataDrivenTest.LoginUsingDataProvider.bothCorrectTesting(LoginUsingDataProvider.java:51)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -259,7 +257,7 @@
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="6">[Admin, admin123000]</div>
+            <div class="node" id="6">[AdminXXX, admin123, invalid]</div>
             <div class="status-avatar float-right fail-bg">
                <i class="fa fa-times text-white"></i>
             </div>
@@ -272,14 +270,13 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:19:14 PM</td>
+        <td>2:09:35 PM</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [true] but found [false]
+          <textarea readonly class="code-block">java.lang.AssertionError: Expecting login fail but navigate to dashboard expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at LoginTestwithParameters.LoginTest.bothCorrectTesting(LoginTest.java:37)
+	at DataDrivenTest.LoginUsingDataProvider.bothCorrectTesting(LoginUsingDataProvider.java:51)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -371,9 +368,9 @@
 <tbody>
 <tr>
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:19:01 PM</td>
+<td>14:09:21 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='4'>[AdminABC, admin123567]</a>
+<a href="#" class="linked" test-id='1' id='4'>[AdminXXX, admin123XXX, invalid]</a>
 <div class="">
 <span class="badge badge-default">bothCorrectTesting</span>
 </div>
@@ -381,9 +378,9 @@
 </tr>
 <tr>
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:19:08 PM</td>
+<td>14:09:27 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='5'>[AdminXXX, admin123]</a>
+<a href="#" class="linked" test-id='1' id='5'>[Admin, admin123XXX, invalid]</a>
 <div class="">
 <span class="badge badge-default">bothCorrectTesting</span>
 </div>
@@ -391,9 +388,9 @@
 </tr>
 <tr>
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:19:14 PM</td>
+<td>14:09:33 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='6'>[Admin, admin123000]</a>
+<a href="#" class="linked" test-id='1' id='6'>[AdminXXX, admin123, invalid]</a>
 <div class="">
 <span class="badge badge-default">bothCorrectTesting</span>
 </div>
@@ -425,13 +422,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 17, 2025 01:18:49 PM</h3>
+<h3>Nov 17, 2025 02:09:09 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 17, 2025 01:19:15 PM</h3>
+<h3>Nov 17, 2025 02:09:35 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">

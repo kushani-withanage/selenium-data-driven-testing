@@ -1,4 +1,4 @@
-package LoginTestwithParameters;
+package DataDrivenTest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class LoginTest {
+public class LoginUsingParameter {
     WebDriver driver;
 
     @BeforeMethod

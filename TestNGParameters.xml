@@ -12,7 +12,7 @@
         <parameter name="password" value="admin123"/>
         <parameter name="verification" value="valid"/>
         <classes>
-            <class name="LoginTestwithParameters.LoginTest"/>
+            <class name="DataDrivenTest.LoginUsingParameter"/>
         </classes>
     </test>
     <test name="BothIncorrect">
@@ -20,7 +20,7 @@
         <parameter name="password" value="admin123567"/>
         <parameter name="verification" value="invalid"/>
         <classes>
-            <class name="LoginTestwithParameters.LoginTest"/>
+            <class name="DataDrivenTest.LoginUsingParameter"/>
         </classes>
     </test>
     <test name="CorrectPassword">
@@ -28,7 +28,7 @@
         <parameter name="password" value="admin123"/>
         <parameter name="verification" value="invalid"/>
         <classes>
-            <class name="LoginTestwithParameters.LoginTest"/>
+            <class name="DataDrivenTest.LoginUsingParameter"/>
         </classes>
     </test>
     <test name="CorrectUsername">
@@ -36,7 +36,7 @@
         <parameter name="password" value="admin123000"/>
         <parameter name="verification" value="invalid"/>
         <classes>
-            <class name="LoginTestwithParameters.LoginTest"/>
+            <class name="DataDrivenTest.LoginUsingParameter"/>
         </classes>
     </test>
 </suite>
