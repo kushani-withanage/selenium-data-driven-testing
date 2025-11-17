@@ -24,7 +24,7 @@ public class CorrectPassword {
     @Test
     public void bothCorrectTesting(){
         WebElement userName = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input"));
-        userName.sendKeys("AdminXXXX");
+        userName.sendKeys("AdminXXX");
         WebElement password = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/div[2]/input"));
         password.sendKeys("admin123");
         WebElement loginBtn = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"));
