@@ -7,9 +7,15 @@
         <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"/>
     </listeners>
 
-    <test name="data provider">
+<!--    <test name="data provider">-->
+<!--        <classes>-->
+<!--            <class name="DataDrivenTest.LoginUsingDataProvider"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="data provider by excel">
         <classes>
-            <class name="DataDrivenTest.LoginUsingDataProvider"/>
+            <class name="DataDrivenTest.LoginUsingDataProviderbyExcel"/>
         </classes>
     </test>
 
