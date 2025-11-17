@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Login Suite with parameters">
+    <!--        This is from extentreports-testng-adapter dependency-->
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"/>
+    </listeners>
+
+    <test name="BothCorrect">
+        <parameter name="username" value="Admin"/>
+        <parameter name="password" value="admin123"/>
+        <parameter name="verification" value="valid"/>
+        <classes>
+            <class name="LoginTestwithParameters.LoginTest"/>
+        </classes>
+    </test>
+    <test name="BothIncorrect">
+        <parameter name="username" value="AdminABC"/>
+        <parameter name="password" value="admin123567"/>
+        <parameter name="verification" value="invalid"/>
+        <classes>
+            <class name="LoginTestwithParameters.LoginTest"/>
+        </classes>
+    </test>
+    <test name="CorrectPassword">
+        <parameter name="username" value="AdminXXX"/>
+        <parameter name="password" value="admin123"/>
+        <parameter name="verification" value="invalid"/>
+        <classes>
+            <class name="LoginTestwithParameters.LoginTest"/>
+        </classes>
+    </test>
+    <test name="CorrectUsername">
+        <parameter name="username" value="Admin"/>
+        <parameter name="password" value="admin123000"/>
+        <parameter name="verification" value="invalid"/>
+        <classes>
+            <class name="LoginTestwithParameters.LoginTest"/>
+        </classes>
+    </test>
+</suite>
